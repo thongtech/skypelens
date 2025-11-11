@@ -75,7 +75,7 @@ SkypeLens intelligently processes Skype's built-in translation feature:
 
 ### Using SkypeLens
 
-1. Open SkypeLens in your browser (default: http://localhost:5173)
+1. Open [SkypeLens](https://thongtech.github.io/skypelens/) in your browser
 2. **Choose your upload method:**
    - **Conversations only** – Drag and drop `messages.json` or click to select it
    - **Full media support** – Click "Select Export Directory" and choose the entire extracted Skype export folder
