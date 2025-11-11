@@ -7,6 +7,16 @@ The best Skype JSON viewer you'll ever find. SkypeLens transforms your exported 
 [![React](https://img.shields.io/badge/react-18+-blue.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/typescript-5+-blue.svg)](https://www.typescriptlang.org/)
 
+<div align="center">
+
+### 🚀 **[Open SkypeLens →](https://thongtech.github.io/skypelens/)**
+
+[![Launch App](https://img.shields.io/badge/🌐_Launch_App-View_Your_Conversations-blue?style=for-the-badge)](https://thongtech.github.io/skypelens/)
+
+No installation required • Runs in your browser • Privacy-first
+
+</div>
+
 ## ❓ Why SkypeLens?
 
 **Skype shut down on 5th May 2025**, leaving millions of users with years of conversation history locked in difficult-to-read JSON files. Microsoft's official [Skype viewer](https://go.skype.com/skype-parser) was already severely limited before the shutdown:
