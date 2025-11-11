@@ -1,0 +1,6 @@
+export const SCROLL_THRESHOLD = 500;
+export const LOAD_MORE_INCREMENT = 50;
+export const INITIAL_MESSAGE_COUNT = 50;
+export const GROUP_TIME_THRESHOLD = 300000;
+export const REQUIRED_STABLE_FRAMES = 6;
+export const MAX_SCROLL_FRAMES = 30;
