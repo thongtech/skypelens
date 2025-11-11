@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Stack, Text, Group, ActionIcon, TextInput, Paper } from "@mantine/core";
-import { IconChevronLeft, IconChevronRight, IconSearch, IconX } from "@tabler/icons-react";
+import { Stack, Text, Group, ActionIcon, TextInput, Paper, Anchor } from "@mantine/core";
+import { IconChevronLeft, IconChevronRight, IconSearch, IconX, IconBrandGithub } from "@tabler/icons-react";
 import { ColorSchemeToggle } from "../ColorSchemeToggle/ColorSchemeToggle";
 import { ConversationList } from "../Conversation/ConversationList";
 import { useConversations } from "../../store/messageStore";
@@ -28,6 +28,16 @@ export function Sidebar({ navbarCollapsed, toggleNavbar }: SidebarProps) {
 					Conversations
 				</Text>
 				<Group gap="xs">
+					<Anchor
+						href="https://github.com/thongtech/skypelens"
+						target="_blank"
+						rel="noopener noreferrer"
+						style={{ display: "flex", alignItems: "center" }}
+					>
+						<ActionIcon variant="subtle" size="lg">
+							<IconBrandGithub size={18} />
+						</ActionIcon>
+					</Anchor>
 					<ColorSchemeToggle />
 					<ActionIcon variant="subtle" onClick={toggleNavbar} visibleFrom="sm">
 						{navbarCollapsed ? <IconChevronRight size={16} /> : <IconChevronLeft size={16} />}
