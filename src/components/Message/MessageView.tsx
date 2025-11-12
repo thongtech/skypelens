@@ -245,6 +245,12 @@ export function MessageView() {
       if (loadedMessageCount >= totalMessages) {
         setIsLoadingAll(false);
         setIsLoadingMore(false);
+        // Scroll to top after messages are loaded
+        requestAnimationFrame(() => {
+          if (scrollContainerRef.current) {
+            scrollContainerRef.current.scrollTop = 0;
+          }
+        });
       }
     }
   }, [isLoadingAll, loadedMessageCount, conversation]);
