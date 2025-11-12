@@ -8,6 +8,7 @@ The best Skype JSON viewer you'll ever find. SkypeLens transforms your exported 
 [![TypeScript](https://img.shields.io/badge/typescript-5+-blue.svg)](https://www.typescriptlang.org/)
 
 <div align="center">
+   <img src="docs/screenshots/message-view.png" alt="Message View" width="640">
 
 ### 🚀 **[Open SkypeLens →](https://thongtech.github.io/skypelens/)**
 
@@ -76,6 +77,11 @@ SkypeLens intelligently processes Skype's built-in translation feature:
 ### Using SkypeLens
 
 1. Open [SkypeLens](https://thongtech.github.io/skypelens/) in your browser
+
+   <div align="center">
+      <img src="docs/screenshots/upload.png" alt="Upload Skype Data" width="640">
+   </div>
+
 2. **Choose your upload method:**
    - **Conversations only** – Drag and drop `messages.json` or click to select it
    - **Full media support** – Click "Select Export Directory" and choose the entire extracted Skype export folder
